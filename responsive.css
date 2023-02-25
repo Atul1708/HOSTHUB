@@ -1,0 +1,141 @@
+/* media query */
+
+@media (max-width: 980px) {
+    .hero .hero-container__right {
+        display: none;
+    }
+
+    .hero-container__left p {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+    }
+
+    .links {
+        height: 100vh;
+        width: 300px;
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        background-color: var(--white);
+        transition: all 0.6s;
+    }
+
+    .links ul {
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+
+    .hero-container__left p {
+        width: 60%;
+    }
+
+    .about-us .about-us_des {
+        width: 70%;
+    }
+
+    .price .price_des {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .hero-container__left h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-container__left p {
+        width: 100%;
+    }
+
+    .about-us .about-us_des {
+        width: 80%;
+    }
+
+    .price {
+        padding: .5rem;
+    }
+
+    .price h2 {
+        font-size: 1.5rem;
+    }
+
+    .price .price_des {
+        width: 80%;
+    }
+
+    .price .price-cards {
+        gap: 1rem;
+    }
+
+    .card {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 25px;
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3rem;
+        position: relative;
+        box-shadow: 0 0 1px 1px #e0e0ea;
+        transition: all 0.3s;
+        border-radius: 10px;
+    }
+
+    .card button {
+        margin-left: -12px;
+    }
+
+    /* 
+    .solution {
+        min-height: 60vh;
+    }
+     */
+    .solution_container h2 {
+        font-size: 1.5rem;
+        padding-bottom: .8rem;
+    }
+
+    .solution_container p {
+        text-align: center;
+        margin: 0 auto 1rem auto;
+        width: 80%;
+    }
+
+    .solve {
+        margin-top: 1rem;
+    }
+
+    .client-card,
+    .client-card_main {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .service h2 {
+        font-size: 1.5rem;
+    }
+
+    .service .service_desc {
+        width: 80%;
+    }
+
+    .service_card {
+        padding: 1rem;
+    }
+
+    .footer_section_2 .form {
+        flex-direction: column;
+    }
+
+    .form button {
+        margin-top: .5rem;
+    }
+}
